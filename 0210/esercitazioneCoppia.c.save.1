@@ -1,0 +1,37 @@
+.//GRUPPO: MAZZA - MIGLIETTA
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define N 100
+int main(){
+	char lunghezza1;
+	char lunghezza2;
+	char concatena;
+	char str1[N];
+   char lunghezza1;
+        char lunghezza2;
+        char concatena;
+	char str2[N];
+//IL PROGRAMMA LEGGE IN INPUT LE DUE STRINGHE
+	printf("inserisci la prima frase: \n");
+	fgets(str1,N,stdin);
+        printf("inserisci la seconda frase: \n");
+        fgets(str2,N,stdin);
+//CALCOLIAMO LA LUNGHEZZA DI STRINGA1 E STRINGA2
+	lunghezza1=strlen(str1);
+	lunghezza2=strlen(str2);
+//TOGLIAMO L'ULTIMO CARATTERE DELLE DUE STRINGHE PER FAR SI CHE IL PROGRAMMA NON CALCOLI ANCHE L'INVIO
+	lunghezza1=lunghezza1-1;
+	lunghezza2=lunghezza2-1;
+//	for(int i=0;str1[i]!='\0';i++{
+//		if str1[i]=='\O'{
+		
+//SCRIVIAMO LA LUNGHEZZA DI STRINGA1 E STRINGA2
+	printf("la stringa 1 e' lunga: %d%s",lunghezza1," caratteri \n");
+	printf("la stringa 2 e' lunga: %d%s",lunghezza2," caratteri \n");
+//CONCATENA LE DUE STRINGHE
+	strcat(str1,str2);
+	//printf("%s",str2);
+	printf("%s",str1);
+return 0;
+}

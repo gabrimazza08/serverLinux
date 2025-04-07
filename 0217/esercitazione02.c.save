@@ -1,0 +1,11 @@
+/*
+Una stringa RNA è una stringa formata dall'alfabeto contenente 'A', 'C', 'G' e 'U'.
+Data una stringa di DNA t corrispondente a un filamento codificante, la sua stringa di
+RNA trascritta u è formata sostituendo tutte le occorrenze di 'T' in t con 'U' in u
+Input: Una stringa di DNA t avente una lunghezza massima di 1000 simboli
+Output: la stringa di RNA trascritta di t
+Set di dati di esempio
+GATGGAACTTGACTACGTAAATT
+Risultato atteso
+GAUGGAACUUGACUACGUAAAUU
+*/

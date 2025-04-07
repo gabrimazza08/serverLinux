@@ -1,0 +1,27 @@
+Esercizio 1.
+Una stringa è semplicemente una raccolta ordinata di simboli selezionati da un alfabeto 
+che forma una parola; la lunghezza di una stringa è il numero di simboli che contiene.
+Un esempio di una stringa di DNA di lunghezza 21 (il cui alfabeto contiene i simboli 'A', 
+'C', 'G' e 'T') è "ATGCTCAGAAAGGTCTTACG".
+Input: una stringa di DNA lunga al massimo 1000.
+Output: quattro numeri interi (separati da spazi) che contano il rispettivo numero di 
+volte in cui i simboli 'A', 'C', 'G' e 'T' ricorrono in s.
+Set di dati di esempio
+AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGAT
+AGCAGC
+Risultato atteso
+20 12 17 21
+Esercizio 1.
+Una stringa è semplicemente una raccolta ordinata di simboli selezionati da un alfabeto 
+che forma una parola; la lunghezza di una stringa è il numero di simboli che contiene.
+Un esempio di una stringa di DNA di lunghezza 21 (il cui alfabeto contiene i simboli 'A', 
+'C', 'G' e 'T') è "ATGCTCAGAAAGGTCTTACG".
+Input: una stringa di DNA lunga al massimo 1000.
+Output: quattro numeri interi (separati da spazi) che contano il rispettivo numero di 
+volte in cui i simboli 'A', 'C', 'G' e 'T' ricorrono in s.
+Set di dati di esempio
+AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGAT
+AGCAGC
+Risultato atteso
+20 12 17 21
+
